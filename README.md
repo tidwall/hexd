@@ -3,15 +3,6 @@
   <br><br>
 </p>
 
-## But why?
-
-> Gee whiskers Josh, the Go stdlib package already has the [`hex.Dumper`](https://golang.org/pkg/encoding/hex/#Dumper). Why you reinvent'n the wheel?
-
-- Mostly just because.
-- But also, the outputs are slightly different. `hex.Dumper` is designed to look like `hexdump -C`. `hexd` is intended to look like more like my old favorite hex editor [`Hex Workshop`](http://www.hexworkshop.com/overview.html).  
-- Finally, the `hexd` api is made specifically for the kind of printf debugging that I like.
-
-
 ## What's included
 
 Three wonderfully amazing functions.
@@ -65,6 +56,14 @@ This would output something that looks like:
 ```
 
 Nice!
+
+## But why?
+
+> Gee whiskers Josh, the Go stdlib package already has the [`hex.Dumper`](https://golang.org/pkg/encoding/hex/#Dumper). Why you reinvent'n the wheel?
+
+- Mostly just because.
+- But also, the outputs are slightly different. `hex.Dumper` is designed to look like `hexdump -C`. `hexd` is intended to look like more like my old favorite hex editor [`Hex Workshop`](http://www.hexworkshop.com/overview.html).  
+- Finally, the `hexd` api is made specifically for the kind of printf debugging that I like.
 
 ## Documentation
 
